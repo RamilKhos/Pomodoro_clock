@@ -7,6 +7,8 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-image: linear-gradient(45deg, hsl(0deg 0% 0%) 0%, hsl(344deg 0% 12%) 66%, hsl(0deg 0% 21%) 100%);
+    color: #ecf0f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +20,47 @@ body {
 }
 
 .main {
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 30rem;
     border-radius: 40px;
-    border: 2px solid rgb(0, 255, 179);
+}
+
+.main__timer {
+    height: 70%;
+    border-radius: 40px 40px 0 0;
+    background-color: #e33c29;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.main__timer-title {
+    font-size: 1.5rem;
+}
+.main__timer-time span {
+    font-size: 5rem;
+}
+
+.main__timer-btnWrapper {
+    display: flex;
+    gap: .8rem;
+}
+.main__timer-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem 1.8rem;
+}
+.main__timer-btn i {
+    margin-right: .5rem;
+}
+
+
+.main__timer-settings {
+    height: 30%;
+    border-radius: 0 0 40px 40px;
+    background-color: #fff;
+    color: black;
 }
