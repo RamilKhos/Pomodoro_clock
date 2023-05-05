@@ -41,7 +41,7 @@ body {
     font-size: 1.5rem;
 }
 .main__timer-time span {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .main__timer-btnWrapper {
@@ -49,9 +49,7 @@ body {
     gap: .8rem;
 }
 .main__timer-btn {
-    font-size: 1rem;
-    font-weight: bold;
-    padding: .5rem 1.8rem;
+
 }
 .main__timer-btn i {
     margin-right: .5rem;
@@ -63,4 +61,20 @@ body {
     border-radius: 0 0 40px 40px;
     background-color: #fff;
     color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__session-length,
+.main__break-length {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3rem;
+}
+
+.main__break-length-title {
 }
