@@ -8,8 +8,6 @@ export const Main = () => {
     const [hours, setHours] = useState(0)
     const [minutes, setMinutes] = useState(0)
 
-    console.log({minutes})
-
     const formatTime = (number: number) => {
         return number < 10 ? '0' + number : number
     }
